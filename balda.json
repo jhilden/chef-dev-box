@@ -1,0 +1,7 @@
+{
+	"run_list": [
+	  "recipe[dev-box::default]",
+	  "recipe[dev-box::git]",
+	  "recipe[dev-box::zshell]"
+	]
+}

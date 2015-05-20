@@ -1,0 +1,26 @@
+# Red dots to be displayed while waiting for completion
+COMPLETION_WAITING_DOTS=<%= @resource.completion_waiting_dots %>
+
+source $HOME/.zgen/repo/zgen.zsh
+
+local scriptname=$(basename $0)
+if ! $(zgen saved && shasum -c ~/.zshrc.d/."${scriptname}".sha > /dev/null); then
+  <%- [@resource.use].flatten.each do |u| -%>
+  zgen <%= u %>
+  <%- end -%>
+
+  <%- if @resource.theme -%>
+  zgen oh-my-zsh themes/<%= @resource.theme %>
+  <%- end -%>
+
+  <%- [@resource.bundle].flatten.each do |b| -%>
+  zgen oh-my-zsh plugins/<%= b %>
+  <%- end -%>
+
+  <%- [@resource.zgen_load].flatten.each do |l| -%>
+  zgen load <%= l %>
+  <%- end -%>
+
+  zgen save
+  shasum ~/.zshrc.d/"${scriptname}" > ~/.zshrc.d/."${scriptname}".sha
+fi

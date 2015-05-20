@@ -1,0 +1,380 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"be_file"
+			],
+			[
+				"model",
+				"module._load(request, parent, isMain);"
+			]
+		]
+	},
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"steps",
+				"Set Syntax: Cucumber Steps"
+			],
+			[
+				"gherkin",
+				"Set Syntax: Gherkin"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"commi",
+				"Git: Quick Commit"
+			],
+			[
+				"quicka",
+				"Git: Quick Add"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git quick",
+				"Git: Quick Add"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"stats",
+				"Git: Status"
+			],
+			[
+				"git stash",
+				"Git: Stash"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"set syntax ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"sublimegit",
+				"SublimeGit: Add License"
+			]
+		],
+		"width": 488.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/.kitchen.yml",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/recipes/default.rb",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/attributes/default.rb",
+		"/C/Users/Patrick/dev/projects/sublime-kitchen/LICENSE",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/README.md",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/test/integration/default/serverspec/sublime_text_spec.rb",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/.kitchen/logs/kitchen.log",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/Gemfile",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/Vagrantfile",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/test/integration/sublime_text_2/serverspec/sublime_text_spec.rb",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/recipes/sublime_text_2.rb",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/recipes/sublime_text_3.rb",
+		"/C/Users/Patrick/Desktop/vtest/Vagrantfile",
+		"/C/Users/Patrick/.vagrant.d/boxes/janihur-VAGRANTSLASH-ubuntu-1404-desktop/0/virtualbox/metadata.json",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/test/integration/default/serverspec/sublime_text_2_spec.rb",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/test/integration/default/serverspec/sublime_text_3_spec.rb",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/metadata.rb",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/test/integration/default/serverspec/spec_helper.rb",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/LICENSE",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/CHANGELOG.md",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/Berksfile",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/READEME.md",
+		"/C/Users/Patrick/dev/projects/sublime-text-cookbook/# sublime-text-cookbook",
+		"/C/Users/Patrick/dev/projects/patrickayoup.github.io/Gemfile",
+		"/C/Users/Patrick/dev/projects/music-memory/Vagrantfile",
+		"/C/Users/Patrick/Desktop/scaling.md",
+		"/C/Users/Patrick/dev/projects/music-memory/berks-cookbooks/musicmemory-ipynb/attributes/default.rb",
+		"/C/Users/Patrick/dev/projects/music-memory/Berksfile",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/README.md",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/LICENSE",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/Thorfile",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/recipes/default.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/Rakefile",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/spec/spec_helper.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/spec/default_spec.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/Gemfile",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/features/step_definitions/ipynb_steps.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/attributes/default.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/features/support/env.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/features/ipynb.feature",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/.kitchen.yml",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/.kitchen/logs/kitchen.log",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/Berksfile",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/metadata.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/.kitchen/logs/default-ubuntu-1404.log",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/.gitignore",
+		"/C/Users/Patrick/Desktop/test/Gemfile",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/CHANGELOG.md",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/LICENSE.md",
+		"/C/Users/Patrick/Desktop/projects.txt",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/test/integration/default/serverspec/ipynb_spec.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/test/integration/default/serverspec/virtualenv_spec.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/test/integration/server/serverspec/ipynb_spec.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/test/integration/server/serverspec/virtualenv_spec.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/test/integration/server/serverspec/ipynb.spec.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/test/integration/server/serverspec/virtualenv.spec.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/test/integration/default/bats/virtualenv.test.bats",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/test/integration/default/bats/ipynb_installed.bats",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/recipes/startipynb.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/recipes/ipynb.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/recipes/virtualenv.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/recipes/gcc.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/recipes/pip.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/recipes/python.rb",
+		"/C/Users/Patrick/dev/projects/ipynb-cookbook/recipes/pip.py",
+		"/C/Users/Patrick/dev/projects/music-memory/.gitignore",
+		"/C/Users/Patrick/dev/projects/music-memory/requirements.txt",
+		"/C/Users/Patrick/dev/projects/music-memory/berks-cookbooks/ipynb/recipes/default.rb",
+		"/C/Users/Patrick/dev/projects/music-memory/test/Berksfile",
+		"/C/Users/Patrick/dev/projects/music-memory/cookbooks/python/recipes/pip.rb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ipython",
+			"_pipe_output",
+			"puts",
+			"iPythonNotebook",
+			"rspec",
+			"ubuntu",
+			"-1",
+			">\n]",
+			"\n],",
+			"padding",
+			"padd",
+			"padding",
+			"paddin",
+			"\");",
+			"canvas",
+			"padding",
+			"px",
+			"jtimeline",
+			"broker",
+			"make",
+			"('....//",
+			"persistence",
+			"modules",
+			"_initializeModels",
+			"application",
+			"workout",
+			"this.",
+			"synced",
+			"mat",
+			"public",
+			"dialog-form"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"+"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git-commit":
+	{
+		"height": 94.0
+	},
+	"output.git-pull":
+	{
+		"height": 94.0
+	},
+	"output.git-push":
+	{
+		"height": 172.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Patrick/dev/projects/sublime-kitchen/sublime-kitchen.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true
+}

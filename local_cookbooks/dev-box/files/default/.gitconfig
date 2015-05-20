@@ -1,0 +1,7 @@
+[user]
+  name = Jakob Hilden
+  email = jakobhilden@gmail.com
+[core]
+  editor = subl
+[color]
+  ui = auto

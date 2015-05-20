@@ -1,0 +1,11 @@
+name             'dev-box'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures dev-box'
+long_description 'Installs/Configures dev-box'
+version          '0.1.0'
+
+depends 'zshell'
+depends 'sublime-text'
+depends 'git'
