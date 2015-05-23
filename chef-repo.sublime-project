@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/jk/chef-repo",
+      "folder_exclude_patterns": ["cookbooks/dev-box/"]
+		}
+	]
+}

@@ -1,5 +1,5 @@
 Run using
 
 ```
-chef-client -z -j balda.json
+berks vendor cookbooks && sudo chef-client -c client.rb
 ```

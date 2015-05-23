@@ -1,2 +1,3 @@
 cookbooks/
 nodes/
+local_cookbooks/dev-box/files/default/License.sublime_license

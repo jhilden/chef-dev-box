@@ -1,7 +1,29 @@
 {
-	"run_list": [
-	  "recipe[dev-box::default]",
-	  "recipe[dev-box::git]",
-	  "recipe[dev-box::zshell]"
-	]
+  "run_list": [
+    // "recipe[dev-box::git]",
+    // "recipe[dev-box::zshell]",
+    //"recipe[dev-box::ruby]",
+    // "recipe[dev-box::thinkpad]",
+    // "recipe[dev-box::sublime]",
+    //"recipe[dev-box::gnome-terminal]",
+    //"recipe[dev-box::redis]",
+    "recipe[dev-box::dropbox]"
+  ],
+  "sublime-text": {
+  	"version": 3,
+  	"release": "vivid"
+  },
+  "rvm": {
+    "user_installs": [
+      { "user": "jk" }
+    ],
+    "upgrade": "stable"
+  },
+  "redisio": {
+    "package_install": true,
+    "package_name": "redis-server"
+  },
+  "apt": {
+    "distribution": "vivid"
+  }
 }
