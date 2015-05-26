@@ -3,6 +3,7 @@
   email = jakobhilden@gmail.com
 [core]
   editor = subl
+  excludesfile = /home/jk/.gitignore_global
 [color]
   ui = auto
   diff = auto

@@ -2,7 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "/home/jk/chef-repo",
+			"path": "/home/jk/projects/chef-dev-box",
       "folder_exclude_patterns": ["cookbooks/dev-box/"]
 		}
 	]
