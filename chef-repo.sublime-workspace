@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"els",
+				"elasticsearch"
+			],
+			[
 				"profi",
 				"profile_id"
 			],
@@ -24,18 +28,42 @@
 	"buffers":
 	[
 		{
-			"file": "dropbox.rb",
+			"file": "local_cookbooks/dev-box/metadata.rb",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 409,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "chef-repo.sublime-project",
+			"file": "local_cookbooks/dev-box/recipes/node.rb",
 			"settings":
 			{
-				"buffer_size": 62,
+				"buffer_size": 217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "local_cookbooks/dev-box/recipes/TODO",
+			"settings":
+			{
+				"buffer_size": 830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node.json",
+			"settings":
+			{
+				"buffer_size": 1027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "local_cookbooks/dev-box/recipes/ubuntu.rb",
+			"settings":
+			{
+				"buffer_size": 507,
 				"line_ending": "Unix"
 			}
 		}
@@ -73,7 +101,6 @@
 	"expanded_folders":
 	[
 		"/home/jk/chef-repo",
-		"/home/jk/chef-repo/cookbooks",
 		"/home/jk/chef-repo/local_cookbooks",
 		"/home/jk/chef-repo/local_cookbooks/dev-box",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/files",
@@ -81,13 +108,29 @@
 	],
 	"file_history":
 	[
-		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/gnome-terminal.rb",
-		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/git.rb",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/TODO",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/postgresql.rb",
+		"/home/jk/chef-repo/node.json",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/ruby.rb",
-		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/redis.rb",
-		"/home/jk/chef-repo/balda.json",
-		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/dropbox.rb",
+		"/home/jk/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/files/sublime/Default(Linux).sublime-keymap",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/gnome-terminal.rb",
+		"/home/jk/chef-repo/cookbooks/dev-box/recipes/dropbox.rb",
+		"/home/jk/chef-repo/cookbooks/apt/recipes/default.rb",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/metadata.rb",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/elasticsearch.rb",
+		"/home/jk/chef-repo/balda.json",
+		"/home/jk/chef-repo/cookbooks/java/recipes/openjdk.rb",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/ubuntu.rb",
+		"/home/jk/chef-repo/.gitignore",
+		"/home/jk/chef-repo/cookbooks/dev-box/recipes/thinkpad.rb",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/skype.rb",
+		"/etc/apt/sources.list",
+		"/home/jk/chef-repo/chef-repo.sublime-project",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/dropbox.rb",
+		"/home/jk/chef-repo/dropbox.rb",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/git.rb",
+		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/redis.rb",
 		"/home/jk/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/files/sublime/Preferences.sublime-settings",
 		"/home/jk/chef-repo/cookbooks/rvm/recipes/user.rb",
@@ -96,7 +139,6 @@
 		"/home/jk/chef-bootstrap",
 		"/home/jk/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/sublime.rb",
-		"/home/jk/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/jk/chef-repo/cookbooks/rvm/providers/ruby.rb",
 		"/home/jk/chef-repo/cookbooks/rvm/metadata.json",
 		"/home/jk/chef-repo/cookbooks/rvm/recipes/default.rb",
@@ -104,7 +146,6 @@
 		"/home/jk/chef-repo/cookbooks/rvm/recipes/system.rb",
 		"/home/jk/chef-repo/cookbooks/rvm/attributes/default.rb",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/files/default/.gemrc",
-		"/home/jk/chef-repo/local_cookbooks/dev-box/files/sublime/Default(Linux).sublime-keymap",
 		"/home/jk/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/files/default/Default (Linux).sublime-keymap",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/files/default/Preferences.sublime-settings",
@@ -112,7 +153,6 @@
 		"/home/jk/chef-repo/cookbooks/sublime-text/README.md",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/recipes/default.rb",
 		"/home/jk/chef-repo/README.md",
-		"/home/jk/chef-repo/.gitignore",
 		"/home/jk/chef-repo/client.rb",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/files/default/License.sublime_license",
 		"/home/jk/chef-repo/local_cookbooks/dev-box/files/default/thinkpad_acpi.conf",
@@ -134,7 +174,7 @@
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 47.0
 	},
 	"find_in_files":
 	{
@@ -150,6 +190,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ctrl+p",
+			"\\\"\\'",
+			"insert_line_if_no_match",
+			"apt_repository",
 			"wrap",
 			"install\"",
 			"\"installs\"",
@@ -166,6 +210,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -176,24 +221,52 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dropbox.rb",
+					"file": "local_cookbooks/dev-box/metadata.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "local_cookbooks/dev-box/recipes/node.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
 							]
 						],
 						"settings":
@@ -208,31 +281,90 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "chef-repo.sublime-project",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "local_cookbooks/dev-box/recipes/TODO",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 62,
+						"buffer_size": 830,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								355,
+								355
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "node.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "local_cookbooks/dev-box/recipes/ubuntu.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -281,7 +413,7 @@
 	"project": "chef-repo.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 88.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -291,11 +423,59 @@
 		"selected_items":
 		[
 			[
-				"dropbox",
-				"local_cookbooks/dev-box/recipes/dropbox.rb"
+				"todo",
+				"local_cookbooks/dev-box/recipes/TODO"
+			],
+			[
+				"nodejs",
+				"node.json"
+			],
+			[
+				"ruby",
+				"local_cookbooks/dev-box/recipes/ruby.rb"
+			],
+			[
+				"nod",
+				"node.json"
+			],
+			[
+				"ubu",
+				"local_cookbooks/dev-box/recipes/ubuntu.rb"
+			],
+			[
+				"node",
+				"node.json"
+			],
+			[
+				"metadarb",
+				"local_cookbooks/dev-box/metadata.rb"
+			],
+			[
+				"gone",
+				"local_cookbooks/dev-box/recipes/gnome-terminal.rb"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"gnoe",
+				"local_cookbooks/dev-box/recipes/gnome-terminal.rb"
+			],
+			[
+				"bla",
+				"balda.json"
 			],
 			[
 				"metarb",
+				"local_cookbooks/dev-box/metadata.rb"
+			],
+			[
+				"balda",
+				"balda.json"
+			],
+			[
+				"devme",
 				"local_cookbooks/dev-box/metadata.rb"
 			],
 			[
@@ -303,24 +483,20 @@
 				"balda.json"
 			],
 			[
+				"drop",
+				"local_cookbooks/dev-box/recipes/dropbox.rb"
+			],
+			[
+				"dropbox",
+				"local_cookbooks/dev-box/recipes/dropbox.rb"
+			],
+			[
 				"prefer",
 				"local_cookbooks/dev-box/files/sublime/Preferences.sublime-settings"
 			],
 			[
-				"gone",
-				"cookbooks/dev-box/recipes/gnome-terminal.rb"
-			],
-			[
 				"rub",
 				"local_cookbooks/dev-box/recipes/ruby.rb"
-			],
-			[
-				"ruby",
-				"cookbooks/dev-box/recipes/ruby.rb"
-			],
-			[
-				"balda",
-				"balda.json"
 			]
 		],
 		"width": 0.0

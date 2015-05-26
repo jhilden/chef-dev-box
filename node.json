@@ -10,7 +10,10 @@
     //"recipe[dev-box::redis]",
     //"recipe[dev-box::dropbox]",
     //"recipe[dev-box::elasticsearch]",
-    "recipe[dev-box::skype]"
+    //"recipe[dev-box::skype]",
+    //"recipe[dev-box::multimedia]",
+    "recipe[dev-box::postgresql]",
+    "recipe[dev-box::node]"
   ],
   "sublime-text": {
   	"version": 3,
@@ -26,14 +29,19 @@
     "package_install": true,
     "package_name": "redis-server"
   },
-  "apt": {
-    "distribution": "vivid"
-  },
   "java": {
     "install_flavor": "openjdk",
     "jdk_version": "7"
   },
+  "postgresql": {
+    "enable_pgdg_apt": false,
+    "password": {
+      "postgres": "iloverandompasswordsbutthiswilldo"
+    }
+  },
   "dev-box": {
-    "user": "jk"
+    "user": "jk",
+    "distribution": "vivid",
+    "arch": "amd64"
   }
 }

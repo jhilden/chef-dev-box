@@ -1,0 +1,6 @@
+[
+  { "keys": ["ctrl+shift+w"], "command": "close_all" },
+  { "keys": ["ctrl+m"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["alt+w"], "command": "toggle_setting", "args": { "setting": "word_wrap" } },
+  { "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+]

@@ -1,3 +1,3 @@
 source 'https://supermarket.chef.io'
 
-cookbook 'dev-box', path: './local_cookbooks/dev-box'
+cookbook 'dev-box', path: './dev-box'
