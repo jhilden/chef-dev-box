@@ -1,19 +1,21 @@
 {
   "run_list": [
-    "recipe[dev-box::ubuntu]",
-    "recipe[dev-box::git]",
+    //"recipe[dev-box::ubuntu]",
+    //"recipe[dev-box::git]",
     //"recipe[dev-box::zshell]",
     //"recipe[dev-box::ruby]",
     //"recipe[dev-box::thinkpad]",
-    //"recipe[dev-box::sublime]",
-    "recipe[dev-box::gnome-terminal]",
+    "recipe[dev-box::sublime]"
+    //"recipe[dev-box::gnome-terminal]",
     //"recipe[dev-box::redis]",
     //"recipe[dev-box::dropbox]",
     //"recipe[dev-box::elasticsearch]",
     //"recipe[dev-box::skype]",
     //"recipe[dev-box::multimedia]",
-    "recipe[dev-box::postgresql]",
-    "recipe[dev-box::node]"
+    //"recipe[dev-box::postgresql]",
+    //"recipe[dev-box::node]",
+    //"recipe[dev-box::time_tracking]",
+    //"recipe[dev-box::android]"
   ],
   "sublime-text": {
   	"version": 3,
@@ -42,6 +44,9 @@
   "dev-box": {
     "user": "jk",
     "distribution": "vivid",
-    "arch": "amd64"
+    "arch": "amd64",
+    "nvm": {
+      "version": "v0.25.3"
+    }
   }
 }

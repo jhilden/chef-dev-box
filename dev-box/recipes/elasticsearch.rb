@@ -1,7 +1,7 @@
 include_recipe 'java'
 
 apt_repository "elasticsearch" do
-  uri "http://packages.elastic.co/elasticsearch/1.5/debian"
+  uri "http://packages.elastic.co/elasticsearch/1.4/debian"
   components ['stable', 'main']
   key 'D88E42B4'
   keyserver 'pgp.mit.edu'
@@ -18,9 +18,9 @@ ruby_block 'disable cluster settings for better local development' do
   end
 end
 
-execute 'start on boot' do
-  command "update-rc.d elasticsearch defaults 95 10"
-  only_if do
-    ::File.exists?("/etc/init.d/elasticsearch")
-  end
-end
+# execute 'start on boot' do
+#   command "update-rc.d elasticsearch defaults 95 10"
+#   only_if do
+#     ::File.exists?("/etc/init.d/elasticsearch")
+#   end
+# end
