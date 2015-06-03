@@ -1,3 +1,4 @@
 cookbooks/
 nodes/
 /dev-box/files/private/
+node.json
