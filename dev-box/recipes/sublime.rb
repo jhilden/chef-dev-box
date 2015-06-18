@@ -39,3 +39,22 @@ cookbook_file "sublime user package control settings" do
   action :create
   source 'sublime/PackageControl.sublime-settings'
 end
+
+
+
+# ---- fix up Sass syntax highlighting ----
+# disassociate .sass from 'Ruby Haml' syntax
+cookbook_file "Ruby Haml.sublime-settings" do
+  path "#{sublime_folder}/Packages/User/Ruby Haml.sublime-settings"
+  owner node['dev-box']['user']
+  action :create
+  source 'sublime/RubyHaml.sublime-settings'
+end
+# associate .sass with 'Sass' syntax
+cookbook_file "Sass.sublime-settings" do
+  path "#{sublime_folder}/Packages/User/Sass.sublime-settings"
+  owner node['dev-box']['user']
+  action :create
+  source 'sublime/Sass.sublime-settings'
+end
+

@@ -6,6 +6,8 @@
   [
     "Package Control",
     "Git",
-    "GitGutter"
+    "GitGutter",
+    "Better CoffeeScript",
+    "Sass"
   ]
 }

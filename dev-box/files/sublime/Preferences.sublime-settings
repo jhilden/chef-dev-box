@@ -4,5 +4,7 @@
   "tab_size": 2,
   "auto_complete_commit_on_tab": true,
   "update_check": false,
-  "enable_tab_scrolling": false
+  "enable_tab_scrolling": false,
+  "dpi_scale": 1.2,
+  "binary_file_patterns": [ "*.sassc", ".scssc"]
 }
