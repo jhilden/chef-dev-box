@@ -18,3 +18,16 @@ execute 'increase font-size' do
 end
 
 # gsettings set com.ubuntu.user-interface scale-factor "{'eDP1':10}"
+
+
+
+ruby_block 'increase inotify user watches' do
+  block do
+    file = Chef::Util::FileEdit.new '/etc/sysctl.conf'
+    file.insert_line_if_no_match /max_user_watches/, "fs.inotify.max_user_watches=100000"
+    file.write_file
+  end
+  only_if do
+    ::File.readlines('/etc/modprobe.d/iwlwifi.conf').grep(/max_user_watches/).none?
+  end
+end
