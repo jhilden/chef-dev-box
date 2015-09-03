@@ -3,7 +3,7 @@
 apt_repository 'spotify' do
   uri 'http://repository.spotify.com'
   components ['stable', 'non-free']
-  key '94558F59'
+  key 'D2C19886' # '94558F59'
   keyserver 'keyserver.ubuntu.com'
   arch node['dev-box']['arch']
 end
