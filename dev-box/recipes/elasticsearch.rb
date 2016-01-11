@@ -1,7 +1,7 @@
 include_recipe 'java'
 
 apt_repository "elasticsearch" do
-  uri "http://packages.elastic.co/elasticsearch/1.4/debian"
+  uri "http://packages.elastic.co/elasticsearch/2.x/debian"
   components ['stable', 'main']
   key 'D88E42B4'
   keyserver 'pgp.mit.edu'
