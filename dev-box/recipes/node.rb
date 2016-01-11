@@ -8,11 +8,11 @@ git "checkout nvm" do
   action :checkout
 end
 
-# execute 'install stable node version and make it default' do
-#   command 'nvm install stable && nvm alias default stable'
-#   user node['dev-box']['user']
-#   action :nothing
-# end
+execute 'install stable node version and make it default' do
+  command 'nvm install stable && nvm alias default stable'
+  user node['dev-box']['user']
+  action :nothing
+end
 
 zshell_rcfile 'load_nvm' do
   user node['dev-box']['user']
@@ -20,8 +20,8 @@ zshell_rcfile 'load_nvm' do
   action :create
 end
 
-zshell_rcfile 'local_npm_binaries' do
-  content "export PATH=./node_modules/.bin:./../node_modules/.bin:$PATH"
-  user node['dev-box']['user']
-  action :create
-end
+# zshell_rcfile 'local_npm_binaries' do
+#   content "export PATH=./node_modules/.bin:./../node_modules/.bin:$PATH"
+#   user node['dev-box']['user']
+#   action :create
+# end
