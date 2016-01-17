@@ -2,7 +2,7 @@
   name = Jakob Hilden
   email = jakobhilden@gmail.com
 [core]
-  editor = subl
+  editor = gedit
   excludesfile = /home/jk/.gitignore_global
 [color]
   ui = auto
