@@ -13,5 +13,6 @@
   color = true
 [push]
   default = current
+  followTags = true
 [branch]
   autosetupmerge = true
