@@ -31,3 +31,12 @@ ruby_block 'increase inotify user watches' do
     ::File.readlines('/etc/modprobe.d/iwlwifi.conf').grep(/max_user_watches/).none?
   end
 end
+
+# because of https://facebook.github.io/watchman/docs/install.html#system-specific-preparation
+ruby_block 'increase inotify queue' do
+  block do
+    file = Chef::Util::FileEdit.new '/etc/sysctl.conf'
+    file.insert_line_if_no_match /max_queued_events/, "fs.inotify.max_queued_events=32000"
+    file.write_file
+  end
+end
