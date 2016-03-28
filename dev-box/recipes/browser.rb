@@ -10,6 +10,7 @@ apt_repository 'google-chrome-stable' do
   distribution 'stable'
   components ['main']
   keyserver 'keys.gnupg.net'
+  arch node['dev-box']['arch']
   key '7FAC5991'
   action :add
 end
