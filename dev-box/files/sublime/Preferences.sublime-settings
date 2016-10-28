@@ -1,10 +1,16 @@
 {
-  "font_size": 10,
-  "translate_tabs_to_spaces": true,
-  "tab_size": 2,
   "auto_complete_commit_on_tab": true,
+  "binary_file_patterns": [
+    "*.sassc",
+    ".scssc"
+  ],
+  "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+  "dpi_scale": 1.2,
+  "enable_tab_scrolling": false,
+  "font_size": 10,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
   "update_check": false,
   "enable_tab_scrolling": false,
-  "dpi_scale": 1.2,
-  "binary_file_patterns": [ "*.sassc", ".scssc"]
+  "update_check": false
 }

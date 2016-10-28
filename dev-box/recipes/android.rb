@@ -18,4 +18,4 @@ zshell_rcfile 'android_sdk' do
 end
 
 # KVM for more performanace
-# sudo apt-get install qemu-kvm qemu-system
+package ['qemu-kvm', 'qemu-system']

@@ -4,10 +4,11 @@
   ],
   "installed_packages":
   [
-    "Package Control",
+    "Better CoffeeScript",
     "Git",
     "GitGutter",
-    "Better CoffeeScript",
+    "JavaScriptNext - ES6 Syntax",
+    "Package Control",
     "Sass"
   ]
 }

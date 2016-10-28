@@ -18,16 +18,16 @@ railslove_chef_directory = "#{railslove_directory}/chef"
 #   action :checkout
 # end
 
-# see https://github.com/railslove/chef/blob/master/README.md
+# # see https://github.com/railslove/chef/blob/master/README.md
 
-# rvm_shell 'bundle install' do 
+# rvm_shell 'bundle install' do
 #   # ruby_string ruby_version
 #   cwd railslove_chef_directory
 #   code 'bundle install'
 #   user node['dev-box']['user']
 # end
 
-# rvm_shell 'berks install' do 
+# rvm_shell 'berks install' do
 #   # ruby_string ruby_version
 #   cwd railslove_chef_directory
 #   code 'bundle exec berks install'
@@ -69,3 +69,16 @@ link "#{railslove_chef_directory}/.chef/knife.rb" do
   to "#{railslove_chef_directory}/.chef/knife-railslove.rb"
 end
 
+
+# user brightbox config
+# make sure the directory exists
+directory "/home/#{node['dev-box']['user']}/.brightbox/" do
+  owner node['dev-box']['user']
+  action :create
+end
+# copy config file
+cookbook_file "/home/#{node['dev-box']['user']}/.brightbox/config" do
+  owner node['dev-box']['user']
+  action :create
+  source "private/brightbox_config"
+end

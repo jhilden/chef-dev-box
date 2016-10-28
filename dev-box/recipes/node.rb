@@ -19,9 +19,3 @@ zshell_rcfile 'load_nvm' do
   content "source /home/#{node['dev-box']['user']}/.nvm/nvm.sh"
   action :create
 end
-
-# zshell_rcfile 'local_npm_binaries' do
-#   content "export PATH=./node_modules/.bin:./../node_modules/.bin:$PATH"
-#   user node['dev-box']['user']
-#   action :create
-# end
