@@ -9,3 +9,14 @@ execute 'enable canonical partner repos' do
 end
 
 package 'skype'
+
+
+## new alpha
+
+apt_repository 'skypeforlinux' do
+  uri 'https://repo.skype.com/deb'
+  components ['stable', 'main']
+  key 'https://repo.skype.com/data/SKYPE-GPG-KEY'
+end
+
+package 'skypeforlinux'
