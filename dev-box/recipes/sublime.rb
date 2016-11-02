@@ -2,6 +2,12 @@ include_recipe 'sublime-text::default'
 
 sublime_folder = "/home/#{node['dev-box']['user']}/.config/sublime-text-3"
 
+# make sure sublime Packages/User directory exists
+directory "#{sublime_folder}/Packages/User" do
+  owner node['dev-box']['user']
+  action :create
+end
+
 # settings
 cookbook_file "sublime user settings" do
   path "#{sublime_folder}/Packages/User/Preferences.sublime-settings"
@@ -27,6 +33,7 @@ cookbook_file "sublime license" do
 end
 
 # install package manager
+
 remote_file 'package control' do
   source 'https://packagecontrol.io/Package%20Control.sublime-package'
   action :create

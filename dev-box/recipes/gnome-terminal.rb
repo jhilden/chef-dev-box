@@ -23,8 +23,6 @@ end
 
 # profile settings
 profile_settings = {
-  "use-transparent-background" => true,
-  "background-transparency-percent" => 35,
   "default-size-columns" => 150,
   "default-size-rows" => 40,
   "login-shell" => true

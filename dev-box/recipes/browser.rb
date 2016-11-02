@@ -1,6 +1,6 @@
 # -- chromium --
 
-package ['chromium-browser', 'chromium-codecs-ffmpeg']
+package ['chromium-browser'] #, 'chromium-codecs-ffmpeg']
 
 
 # -- chrome --
@@ -21,17 +21,17 @@ package ['google-chrome-stable']
 # -- flash --
 
 # http://www.webupd8.org/2014/05/install-fresh-player-plugin-in-ubuntu.html
-apt_repository 'webupd8' do
-  uri 'http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu'
-  components ['main']
-  distribution node['dev-box']['distribution']
-  key '4C9D234C'
-  keyserver 'keyserver.ubuntu.com'
-  arch node['dev-box']['arch']
-  action :add
-end
+# apt_repository 'webupd8' do
+#   uri 'http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu'
+#   components ['main']
+#   distribution node['dev-box']['distribution']
+#   key '4C9D234C'
+#   keyserver 'keyserver.ubuntu.com'
+#   arch node['dev-box']['arch']
+#   action :add
+# end
 
-package 'freshplayerplugin'
+# package 'freshplayerplugin'
 
 
 

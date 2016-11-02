@@ -1,8 +1,10 @@
 include_recipe 'java'
+package 'apt-transport-https'
 
 apt_repository "elasticsearch" do
-  uri "http://packages.elastic.co/elasticsearch/2.x/debian"
+  uri "https://artifacts.elastic.co/packages/5.x/apt"
   components ['stable', 'main']
+  distribution nil
   key 'D88E42B4'
   keyserver 'pgp.mit.edu'
 end
