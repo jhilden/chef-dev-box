@@ -2,3 +2,4 @@ cookbooks/
 nodes/
 /dev-box/files/private/
 node.json
+local-mode-cache
