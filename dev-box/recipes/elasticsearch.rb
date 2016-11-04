@@ -20,9 +20,8 @@ ruby_block 'disable cluster settings for better local development' do
   end
 end
 
-execute 'start on boot' do
-  command "sudo update-rc.d elasticsearch defaults 95 10"
-  only_if do
-    ::File.exists?("/etc/init.d/elasticsearch")
-  end
-end
+# configure symstemd service
+# https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html#deb-running-systemd
+# sudo /bin/systemctl daemon-reload
+# sudo /bin/systemctl enable elasticsearch.service
+# sudo systemctl start elasticsearch.service

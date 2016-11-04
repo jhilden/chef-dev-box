@@ -3,6 +3,7 @@
 apt_repository 'spotify' do
   uri 'http://repository.spotify.com'
   components ['stable', 'non-free']
+  distribution nil # had nothing for 'xenial'
   key 'D2C19886' # '94558F59'
   keyserver 'keyserver.ubuntu.com'
   arch node['dev-box']['arch']
@@ -28,5 +29,6 @@ apt_repository 'shutter' do
   keyserver 'keyserver.ubuntu.com'
   arch node['dev-box']['arch']
 end
+
 package 'shutter'
 
