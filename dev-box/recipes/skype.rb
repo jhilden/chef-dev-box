@@ -7,16 +7,16 @@ execute 'enable canonical partner repos' do
     ::File.readlines('/etc/apt/sources.list').grep(/^# deb.*partner$/).any?
   end
 end
-
 package 'skype'
 
 
 ## new alpha
 
-apt_repository 'skypeforlinux' do
-  uri 'https://repo.skype.com/deb'
-  components ['stable', 'main']
-  key 'https://repo.skype.com/data/SKYPE-GPG-KEY'
-end
+# apt_repository 'skypeforlinux' do
+#   uri 'https://repo.skype.com/deb'
+#   components ['stable', 'main']
+#   distribution nil # didn't work for 'xenial'
+#   key 'https://repo.skype.com/data/SKYPE-GPG-KEY'
+# end
 
-package 'skypeforlinux'
+# package 'skypeforlinux'
