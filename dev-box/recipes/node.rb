@@ -8,6 +8,15 @@ git "checkout nvm" do
   action :checkout
 end
 
+apt_repository "yarn" do
+  uri "https://dl.yarnpkg.com/debian/"
+  components ['stable', 'main']
+  distribution nil
+  key 'https://dl.yarnpkg.com/debian/pubkey.gpg'
+end
+
+package 'yarn'
+
 execute 'install stable node version and make it default' do
   command 'nvm install stable && nvm alias default stable'
   user node['dev-box']['user']
