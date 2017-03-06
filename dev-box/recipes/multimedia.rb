@@ -30,5 +30,8 @@ apt_repository 'shutter' do
   arch node['dev-box']['arch']
 end
 
+# after install:  enable autostart
+# Preferences > Behavior > First-launch behavior > Start shutter at login
+
 package 'shutter'
 
